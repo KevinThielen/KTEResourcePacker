@@ -1210,6 +1210,7 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Wi
  /home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o
  ../include/FontLoader.h
+ ../include/ResourcePacker.h
  /home/kevin/Desktop/Projects/C++/KTEResourcePacker/main.cpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include/GL/glew.h
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glfw/include/GLFW/glfw3.h

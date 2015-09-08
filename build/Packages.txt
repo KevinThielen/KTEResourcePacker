@@ -1,0 +1,11 @@
+General {
+    font { buttonFont: "../Resources/Fonts/2font.ttf", size: 38 }
+    font { smallFont38: "../Resources/Fonts/smallFont.ttf", size: 38 }
+    font { smallFont28: "../Resources/Fonts/smallFont.ttf", size: 28 }
+    font { font: "../Resources/Fonts/font.ttf", size: 24 }
+    font { subtitle: "../Resources/Fonts/Action_Man_Shaded.ttf", size: 86 }
+    font { title: "../Resources/Fonts/Action_Man_Shaded.ttf", size: 118 }
+    font { optionsFont: "../Resources/Fonts/optionsFont.ttf", size: 24 }
+    font { gameTitle: "../Resources/Fonts/SubTitle.ttf", size: 82 }
+}
+
