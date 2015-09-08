@@ -1,0 +1,1 @@
+/usr/bin/cc     -Wall  -g    CMakeFiles/iconify.dir/iconify.c.o CMakeFiles/iconify.dir/__/deps/getopt.c.o  -o /home/kevin/Desktop/Projects/C++/KTEngine/build/iconify -rdynamic /home/kevin/Desktop/Projects/C++/KTEngine/build/libglfw3.a -lGLU -lX11 -lpthread -lrt -lXrandr -lXi -lXxf86vm -lrt -lm -lGL -lXrandr -lXi -lXxf86vm -lm -lGL 

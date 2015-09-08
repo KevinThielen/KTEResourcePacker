@@ -1,0 +1,548 @@
+The system is: Linux - 3.13.0-24-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4131551691/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4131551691.dir/build.make CMakeFiles/cmTryCompileExec4131551691.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4131551691.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4131551691.dir/testCCompiler.c.o   -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4131551691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4131551691.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4131551691.dir/testCCompiler.c.o  -o cmTryCompileExec4131551691 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3138109295/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3138109295.dir/build.make CMakeFiles/cmTryCompileExec3138109295.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3138109295
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3138109295.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3138109295 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3138109295' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3138109295 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3138109295/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3138109295.dir/build.make CMakeFiles/cmTryCompileExec3138109295.dir/build]
+  ignore line: [make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3138109295]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3138109295.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3138109295 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3138109295' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3138109295 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3138109295] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3138109295.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3675470887/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3675470887.dir/build.make CMakeFiles/cmTryCompileExec3675470887.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3675470887.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3675470887.dir/testCXXCompiler.cxx.o -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3675470887
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3675470887.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec3675470887.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3675470887 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4144744448/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4144744448.dir/build.make CMakeFiles/cmTryCompileExec4144744448.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec4144744448
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4144744448.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4144744448 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4144744448' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4144744448 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4144744448/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4144744448.dir/build.make CMakeFiles/cmTryCompileExec4144744448.dir/build]
+  ignore line: [make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec4144744448]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4144744448.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec4144744448 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4144744448' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4144744448 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4144744448] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec4144744448.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1501722514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1501722514.dir/build.make CMakeFiles/cmTryCompileExec1501722514.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1501722514.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1501722514.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1501722514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1501722514.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec1501722514.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1501722514 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4256545177/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4256545177.dir/build.make CMakeFiles/cmTryCompileExec4256545177.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4256545177.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec4256545177.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4256545177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4256545177.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec4256545177.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4256545177 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1748095345/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1748095345.dir/build.make CMakeFiles/cmTryCompileExec1748095345.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1748095345.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec1748095345.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1748095345
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1748095345.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec1748095345.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1748095345 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2980076384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2980076384.dir/build.make CMakeFiles/cmTryCompileExec2980076384.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2980076384.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec2980076384.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2980076384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2980076384.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec2980076384.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2980076384 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2278535152/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2278535152.dir/build.make CMakeFiles/cmTryCompileExec2278535152.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2278535152.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec2278535152.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2278535152
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2278535152.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec2278535152.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2278535152 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec613156129/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec613156129.dir/build.make CMakeFiles/cmTryCompileExec613156129.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec613156129.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec613156129.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec613156129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec613156129.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec613156129.dir/CheckFunctionExists.c.o  -o cmTryCompileExec613156129 -rdynamic -lICE 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2483669096/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2483669096.dir/build.make CMakeFiles/cmTryCompileExec2483669096.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2483669096.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTryCompileExec2483669096.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2483669096
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2483669096.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=fcntl    CMakeFiles/cmTryCompileExec2483669096.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2483669096 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1442789442/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1442789442.dir/build.make CMakeFiles/cmTryCompileExec1442789442.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1442789442.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTryCompileExec1442789442.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1442789442
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1442789442.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=poll    CMakeFiles/cmTryCompileExec1442789442.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1442789442 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname_r exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4029234700/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4029234700.dir/build.make CMakeFiles/cmTryCompileExec4029234700.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4029234700.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=gethostbyname_r   -o CMakeFiles/cmTryCompileExec4029234700.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4029234700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4029234700.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=gethostbyname_r    CMakeFiles/cmTryCompileExec4029234700.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4029234700 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyaddr_r exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3164909866/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3164909866.dir/build.make CMakeFiles/cmTryCompileExec3164909866.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3164909866.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r   -o CMakeFiles/cmTryCompileExec3164909866.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3164909866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3164909866.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r    CMakeFiles/cmTryCompileExec3164909866.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3164909866 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1877689928/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1877689928.dir/build.make CMakeFiles/cmTryCompileExec1877689928.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1877689928.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=inet_pton   -o CMakeFiles/cmTryCompileExec1877689928.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1877689928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1877689928.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=inet_pton    CMakeFiles/cmTryCompileExec1877689928.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1877689928 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function inet_ntop exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec458858958/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec458858958.dir/build.make CMakeFiles/cmTryCompileExec458858958.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec458858958.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=inet_ntop   -o CMakeFiles/cmTryCompileExec458858958.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec458858958
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec458858958.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=inet_ntop    CMakeFiles/cmTryCompileExec458858958.dir/CheckFunctionExists.c.o  -o cmTryCompileExec458858958 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS succeded with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3796435319/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3796435319.dir/build.make CMakeFiles/cmTryCompileExec3796435319.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3796435319.dir/src.c.o
+/usr/bin/cc   -Wall  -DHAS_MSGHDR_FLAGS   -o CMakeFiles/cmTryCompileExec3796435319.dir/src.c.o   -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/src.c
+/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/src.c:8:4: warning: statement with no effect [-Wunused-value]
+    tmp->msg_flags;
+    ^
+Linking C executable cmTryCompileExec3796435319
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3796435319.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DHAS_MSGHDR_FLAGS    CMakeFiles/cmTryCompileExec3796435319.dir/src.c.o  -o cmTryCompileExec3796435319 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct msghdr* tmp;
+   tmp->msg_flags;
+  return 0;
+}
+
+Determining size of socklen_t passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3776924132/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3776924132.dir/build.make CMakeFiles/cmTryCompileExec3776924132.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3776924132.dir/HAS_SOCKLEN_T.c.o
+/usr/bin/cc   -Wall     -o CMakeFiles/cmTryCompileExec3776924132.dir/HAS_SOCKLEN_T.c.o   -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c
+Linking C executable cmTryCompileExec3776924132
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3776924132.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall      CMakeFiles/cmTryCompileExec3776924132.dir/HAS_SOCKLEN_T.c.o  -o cmTryCompileExec3776924132 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec430940059/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec430940059.dir/build.make CMakeFiles/cmTryCompileExec430940059.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec430940059.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall     -o CMakeFiles/cmTryCompileExec430940059.dir/CheckIncludeFiles.c.o   -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec430940059
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec430940059.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall      CMakeFiles/cmTryCompileExec430940059.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec430940059 -rdynamic 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3537544994/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3537544994.dir/build.make CMakeFiles/cmTryCompileExec3537544994.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3537544994.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3537544994.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3537544994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3537544994.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3537544994.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3537544994 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddress exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec77683197/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec77683197.dir/build.make CMakeFiles/cmTryCompileExec77683197.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec77683197.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec77683197.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec77683197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec77683197.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec77683197.dir/CheckFunctionExists.c.o  -o cmTryCompileExec77683197 -rdynamic -lGL 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec545899869/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec545899869.dir/build.make CMakeFiles/cmTryCompileExec545899869.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec545899869.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec545899869.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec545899869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec545899869.dir/link.txt --verbose=1
+/usr/bin/cc     -Wall  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec545899869.dir/CheckFunctionExists.c.o  -o cmTryCompileExec545899869 -rdynamic -lGL 
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/CMakeTmp'
+
+

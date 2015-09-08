@@ -1,0 +1,1 @@
+/usr/bin/cc     -Wall  -g    CMakeFiles/threads.dir/threads.c.o CMakeFiles/threads.dir/__/deps/tinycthread.c.o  -o /home/kevin/Desktop/Projects/C++/KTEngine/build/threads -rdynamic /home/kevin/Desktop/Projects/C++/KTEngine/build/libglfw3.a -lGLU -lX11 -lpthread -lrt -lXrandr -lXi -lXxf86vm -lrt -lm -lGL -lpthread -lrt -lXrandr -lXi -lXxf86vm -lm -lGL 
