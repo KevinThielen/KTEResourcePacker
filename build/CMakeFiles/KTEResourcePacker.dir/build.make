@@ -578,6 +578,29 @@ CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o.provides: CMakeFiles/KTERe
 
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o.provides.build: CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
 
+CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o: CMakeFiles/KTEResourcePacker.dir/flags.make
+CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o: ../src/TextureLoader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp
+
+CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp > CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.i
+
+CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp -o CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.s
+
+CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.requires:
+.PHONY : CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.requires
+
+CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.provides: CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.provides.build
+.PHONY : CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.provides
+
+CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.provides.build: CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o
+
 # Object files for target KTEResourcePacker
 KTEResourcePacker_OBJECTS = \
 "CMakeFiles/KTEResourcePacker.dir/main.cpp.o" \
@@ -602,7 +625,8 @@ KTEResourcePacker_OBJECTS = \
 "CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o" \
 "CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameObject.cpp.o" \
 "CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o" \
-"CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o"
+"CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o" \
+"CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o"
 
 # External object files for target KTEResourcePacker
 KTEResourcePacker_EXTERNAL_OBJECTS =
@@ -630,6 +654,7 @@ KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameObject.cpp.o
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
+KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/build.make
 KTEResourcePacker: /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/lib/libGLEW.a
 KTEResourcePacker: /home/kevin/Desktop/Projects/C++/KTEngine/build/libglfw3.a
@@ -680,6 +705,7 @@ CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/home
 CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameObject.cpp.o.requires
 CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o.requires
 CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o.requires
+CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.requires
 .PHONY : CMakeFiles/KTEResourcePacker.dir/requires
 
 CMakeFiles/KTEResourcePacker.dir/clean:

@@ -27,6 +27,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o"
   "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/main.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/main.cpp.o"
   "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/FontLoader.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o"
+  "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

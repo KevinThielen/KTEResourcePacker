@@ -114,7 +114,7 @@ bool FontLoader::loadFromFile(std::string path, unsigned int fontSize)
     return true;
 }
 
-kte::Font FontLoader::saveFont(std::string filename)
+kte::Font FontLoader::save(std::string filename)
 {
     
     int x = font.textureWidth;

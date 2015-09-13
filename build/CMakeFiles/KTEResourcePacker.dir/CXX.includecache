@@ -27,6 +27,16 @@ sstream
 -
 map
 -
+vector
+-
+
+../include/TextureLoader.h
+string
+-
+GameEngine.h
+-
+Resources/TextureData.h
+-
 
 /home/kevin/Desktop/Projects/C++/KTEResourcePacker/main.cpp
 GameEngine.h
@@ -47,6 +57,8 @@ deque
 -
 ResourcePacker.h
 /home/kevin/Desktop/Projects/C++/KTEResourcePacker/ResourcePacker.h
+TextureLoader.h
+-
 
 /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/FontLoader.cpp
 FontLoader.h
@@ -59,6 +71,12 @@ fstream
 -
 complex
 -
+
+/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp
+stb/stb_image.h
+-
+TextureLoader.h
+/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include/GL/glew.h
 stddef.h
@@ -712,6 +730,28 @@ detail/type_vec4.hpp
 detail/func_vector_relational.hpp
 /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_vector_relational.hpp
 
+/home/kevin/Desktop/Projects/C++/KTEngine/external/stb/stb/stb_image.h
+stdio.h
+-
+math.h
+-
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+stdarg.h
+-
+stddef.h
+-
+stdint.h
+-
+
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
 vector
 -
@@ -825,6 +865,8 @@ Utility/FPSCounter.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
 Audio/AudioManager.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
+Resources/Resources.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/GameObject.h
 IGameScene.h
@@ -913,8 +955,8 @@ RenderTechnique.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/RenderTechnique.h
 Graphics/Geometries.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Graphics/Geometries.h
-Resources.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Resources.h
+Resources/Resources.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Resources/Resources.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
 map
@@ -947,6 +989,8 @@ string
 -
 GL/glew.h
 -
+Resources/TextureData.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Resources/TextureData.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/IGameScene.h
 memory
@@ -963,8 +1007,8 @@ Systems/ISystem.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
 Graphics/Text.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
-Resources.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources.h
+Resources/Resources.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
 Input.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
 Audio/AudioManager.h
@@ -988,22 +1032,6 @@ Message.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
 
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources.h
-Graphics/Texture.h
--
-Graphics/Animation.h
--
-Graphics/FontTexture.h
--
-Resources/ResourcePackage.h
--
-Audio/AudioBuffer.h
--
-initializer_list
--
-iostream
--
-
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
 map
 -
@@ -1021,15 +1049,39 @@ vector
 -
 Font.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
+TextureData.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
 fstream
 -
+
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
+Graphics/Texture.h
+-
+Graphics/Animation.h
+-
+Graphics/FontTexture.h
+-
+Resources/ResourcePackage.h
+-
+Audio/AudioBuffer.h
+-
+initializer_list
+-
+iostream
+-
+
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
+vector
+-
+IResource.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/AnimationSystem.h
 vector
 -
 memory
 -
-Resources.h
+Resources/Resources.h
 -
 ISystem.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
@@ -1161,12 +1213,6 @@ Systems/InputSystem.h
 /home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/InputSystem.h
 Systems/AnimationSystem.h
 /home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/AnimationSystem.h
-
-/home/kevin/Desktop/Projects/C++/KTEngine/src/Resources/ResourcePackage.cpp
-Resources/ResourcePackage.h
-/home/kevin/Desktop/Projects/C++/KTEngine/src/Resources/Resources/ResourcePackage.h
-iostream
--
 
 /home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/AnimationSystem.cpp
 iostream

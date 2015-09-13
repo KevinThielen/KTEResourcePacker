@@ -14,7 +14,7 @@ class FontLoader
 {
 public:	
   bool loadFromFile(std::string path, unsigned int fontSize);  
-  kte::Font saveFont(std::string fileName);
+  kte::Font save(std::string fileName);
   
 private:
     FT_Face fontFace;

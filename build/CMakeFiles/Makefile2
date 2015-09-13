@@ -56,11 +56,11 @@ CMAKE_BINARY_DIR = /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build
 # Target rules for target CMakeFiles/KTEResourcePacker.dir
 
 # All Build rule for target.
-CMakeFiles/KTEResourcePacker.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 CMakeFiles/KTEResourcePacker.dir/all: KTEngine/external/enet/CMakeFiles/enet.dir/all
+CMakeFiles/KTEResourcePacker.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/depend
 	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
 	@echo "Built target KTEResourcePacker"
 .PHONY : CMakeFiles/KTEResourcePacker.dir/all
 
@@ -70,7 +70,7 @@ all: CMakeFiles/KTEResourcePacker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/KTEResourcePacker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/KTEResourcePacker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles 0
 .PHONY : CMakeFiles/KTEResourcePacker.dir/rule
@@ -146,7 +146,7 @@ KTEngine/external/enet/preinstall:
 KTEngine/external/enet/CMakeFiles/enet.dir/all:
 	$(MAKE) -f KTEngine/external/enet/CMakeFiles/enet.dir/build.make KTEngine/external/enet/CMakeFiles/enet.dir/depend
 	$(MAKE) -f KTEngine/external/enet/CMakeFiles/enet.dir/build.make KTEngine/external/enet/CMakeFiles/enet.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  29 30 31 32 33 34 35 36 37
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  30 31 32 33 34 35 36 37 38
 	@echo "Built target enet"
 .PHONY : KTEngine/external/enet/CMakeFiles/enet.dir/all
 
@@ -249,7 +249,7 @@ KTEngine/external/glfw/src/preinstall:
 KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f KTEngine/external/glfw/src/CMakeFiles/glfw.dir/build.make KTEngine/external/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/src/CMakeFiles/glfw.dir/build.make KTEngine/external/glfw/src/CMakeFiles/glfw.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63
 	@echo "Built target glfw"
 .PHONY : KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 
@@ -309,7 +309,7 @@ KTEngine/external/glfw/examples/preinstall:
 KTEngine/external/glfw/examples/CMakeFiles/boing.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/boing.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/boing.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/boing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  25
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  26
 	@echo "Built target boing"
 .PHONY : KTEngine/external/glfw/examples/CMakeFiles/boing.dir/all
 
@@ -344,7 +344,7 @@ clean: KTEngine/external/glfw/examples/CMakeFiles/boing.dir/clean
 KTEngine/external/glfw/examples/CMakeFiles/gears.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/gears.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/gears.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/gears.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  44
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  45
 	@echo "Built target gears"
 .PHONY : KTEngine/external/glfw/examples/CMakeFiles/gears.dir/all
 
@@ -379,7 +379,7 @@ clean: KTEngine/external/glfw/examples/CMakeFiles/gears.dir/clean
 KTEngine/external/glfw/examples/CMakeFiles/heightmap.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/heightmap.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/heightmap.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/heightmap.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  65 66
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  66 67
 	@echo "Built target heightmap"
 .PHONY : KTEngine/external/glfw/examples/CMakeFiles/heightmap.dir/all
 
@@ -414,7 +414,7 @@ clean: KTEngine/external/glfw/examples/CMakeFiles/heightmap.dir/clean
 KTEngine/external/glfw/examples/CMakeFiles/simple.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/simple.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/simple.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/simple.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  75
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  76
 	@echo "Built target simple"
 .PHONY : KTEngine/external/glfw/examples/CMakeFiles/simple.dir/all
 
@@ -449,7 +449,7 @@ clean: KTEngine/external/glfw/examples/CMakeFiles/simple.dir/clean
 KTEngine/external/glfw/examples/CMakeFiles/splitview.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/splitview.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/splitview.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/splitview.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  76
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  77
 	@echo "Built target splitview"
 .PHONY : KTEngine/external/glfw/examples/CMakeFiles/splitview.dir/all
 
@@ -484,7 +484,7 @@ clean: KTEngine/external/glfw/examples/CMakeFiles/splitview.dir/clean
 KTEngine/external/glfw/examples/CMakeFiles/wave.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/wave.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/examples/CMakeFiles/wave.dir/build.make KTEngine/external/glfw/examples/CMakeFiles/wave.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  81
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  82
 	@echo "Built target wave"
 .PHONY : KTEngine/external/glfw/examples/CMakeFiles/wave.dir/all
 
@@ -566,7 +566,7 @@ KTEngine/external/glfw/tests/preinstall:
 KTEngine/external/glfw/tests/CMakeFiles/accuracy.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/accuracy.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/accuracy.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/accuracy.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/accuracy.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  24
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  25
 	@echo "Built target accuracy"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/accuracy.dir/all
 
@@ -601,7 +601,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/accuracy.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/clipboard.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/clipboard.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/clipboard.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/clipboard.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  26 27
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  27 28
 	@echo "Built target clipboard"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/clipboard.dir/all
 
@@ -636,7 +636,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/clipboard.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/defaults.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/defaults.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/defaults.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/defaults.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/defaults.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  28
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  29
 	@echo "Built target defaults"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/defaults.dir/all
 
@@ -671,7 +671,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/defaults.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/events.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/events.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/events.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/events.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/events.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  38 39
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  39 40
 	@echo "Built target events"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/events.dir/all
 
@@ -706,7 +706,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/events.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/fsaa.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/fsaa.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/fsaa.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/fsaa.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/fsaa.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  40 41
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  41 42
 	@echo "Built target fsaa"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/fsaa.dir/all
 
@@ -741,7 +741,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/fsaa.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/gamma.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/gamma.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/gamma.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/gamma.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  42 43
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  43 44
 	@echo "Built target gamma"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/gamma.dir/all
 
@@ -776,7 +776,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/gamma.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/glfwinfo.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/glfwinfo.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/glfwinfo.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/glfwinfo.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  63 64
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  64 65
 	@echo "Built target glfwinfo"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/glfwinfo.dir/all
 
@@ -811,7 +811,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/glfwinfo.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/iconify.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/iconify.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/iconify.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/iconify.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  67 68
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  68 69
 	@echo "Built target iconify"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/iconify.dir/all
 
@@ -846,7 +846,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/iconify.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/joysticks.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/joysticks.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/joysticks.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/joysticks.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  69
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  70
 	@echo "Built target joysticks"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/joysticks.dir/all
 
@@ -881,7 +881,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/joysticks.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/modes.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/modes.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/modes.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/modes.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/modes.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  70 71
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  71 72
 	@echo "Built target modes"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/modes.dir/all
 
@@ -916,7 +916,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/modes.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/peter.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/peter.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/peter.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/peter.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/peter.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  72
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  73
 	@echo "Built target peter"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/peter.dir/all
 
@@ -951,7 +951,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/peter.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/reopen.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/reopen.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/reopen.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/reopen.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  73
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  74
 	@echo "Built target reopen"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/reopen.dir/all
 
@@ -986,7 +986,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/reopen.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/sharing.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/sharing.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/sharing.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/sharing.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/sharing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  74
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  75
 	@echo "Built target sharing"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/sharing.dir/all
 
@@ -1021,7 +1021,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/sharing.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/tearing.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/tearing.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/tearing.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/tearing.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  77
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  78
 	@echo "Built target tearing"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/tearing.dir/all
 
@@ -1056,7 +1056,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/tearing.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/threads.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/threads.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/threads.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/threads.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  78 79
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  79 80
 	@echo "Built target threads"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/threads.dir/all
 
@@ -1091,7 +1091,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/threads.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/title.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/title.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/title.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/title.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/title.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  80
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  81
 	@echo "Built target title"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/title.dir/all
 
@@ -1126,7 +1126,7 @@ clean: KTEngine/external/glfw/tests/CMakeFiles/title.dir/clean
 KTEngine/external/glfw/tests/CMakeFiles/windows.dir/all: KTEngine/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/windows.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/windows.dir/depend
 	$(MAKE) -f KTEngine/external/glfw/tests/CMakeFiles/windows.dir/build.make KTEngine/external/glfw/tests/CMakeFiles/windows.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  82
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles  83
 	@echo "Built target windows"
 .PHONY : KTEngine/external/glfw/tests/CMakeFiles/windows.dir/all
 

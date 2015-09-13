@@ -1042,6 +1042,30 @@ src/FontLoader.cpp.s:
 	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.s
 .PHONY : src/FontLoader.cpp.s
 
+src/TextureLoader.o: src/TextureLoader.cpp.o
+.PHONY : src/TextureLoader.o
+
+# target to build an object file
+src/TextureLoader.cpp.o:
+	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o
+.PHONY : src/TextureLoader.cpp.o
+
+src/TextureLoader.i: src/TextureLoader.cpp.i
+.PHONY : src/TextureLoader.i
+
+# target to preprocess a source file
+src/TextureLoader.cpp.i:
+	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.i
+.PHONY : src/TextureLoader.cpp.i
+
+src/TextureLoader.s: src/TextureLoader.cpp.s
+.PHONY : src/TextureLoader.s
+
+# target to generate assembly for a file
+src/TextureLoader.cpp.s:
+	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.s
+.PHONY : src/TextureLoader.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1150,6 +1174,9 @@ help:
 	@echo "... src/FontLoader.o"
 	@echo "... src/FontLoader.i"
 	@echo "... src/FontLoader.s"
+	@echo "... src/TextureLoader.o"
+	@echo "... src/TextureLoader.i"
+	@echo "... src/TextureLoader.s"
 .PHONY : help
 
 

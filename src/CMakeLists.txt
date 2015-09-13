@@ -1,10 +1,12 @@
 
 set(GAME_SOURCE
 ${CMAKE_CURRENT_SOURCE_DIR}/FontLoader.cpp
+${CMAKE_CURRENT_SOURCE_DIR}/TextureLoader.cpp
 )
 
 set(GAME_HEADERS
 ${PROJECT_SOURCE_DIR}/include/FontLoader.h
+${PROJECT_SOURCE_DIR}/include/TextureLoader.h
 )
 
 set(DATA_FILES ${DATA_FILES} "${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt" PARENT_SCOPE)

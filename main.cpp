@@ -8,6 +8,7 @@
 
 #include <deque>
 #include "ResourcePacker.h"
+#include <TextureLoader.h>
 
 int main(int argc, char* argv[])
 {
@@ -25,25 +26,50 @@ int main(int argc, char* argv[])
 
 
 
-    kte::ResourcePackage package;
-    FontLoader fontLoader;
+    std::map<std::string, kte::ResourcePackage> packages;
 
    
     ResourcePacker packer;
     if(!packer.loadPackages(descriptorFile))
 	return false;
-    std::vector<FontData> fonts = packer.getFonts(); 
+  
     
-    for(auto font : fonts)
+    FontLoader fontLoader;
+    std::map<std::string, std::vector<FontInfo>> fontPackages = packer.getFonts(); 
+    
+    for(auto fontPackage : fontPackages)
     {
-	if(fontLoader.loadFromFile(font.path, font.size))
-	{	   
-	    kte::Font f = fontLoader.saveFont(font.name);
-	    package.addResource(f);
+	if(!packages.count(fontPackage.first))
+	    packages[fontPackage.first] = kte::ResourcePackage(fontPackage.first);
+	
+	for(auto font : fontPackage.second)
+	{
+	    if(fontLoader.loadFromFile(font.path, font.size))
+	    {	   
+		kte::Font f = fontLoader.save(font.name);
+		packages[fontPackage.first].addResource(f);
+	    }
+	}
+    }
+    TextureLoader textureLoader;
+     std::map<std::string, std::vector<TextureInfo>> texturePackages = packer.getTextures(); 
+    
+    for(auto texturePackage : texturePackages)
+    {
+	if(!packages.count(texturePackage.first))
+	    packages[texturePackage.first] = kte::ResourcePackage(texturePackage.first);
+	for(auto texture : texturePackage.second)
+	{
+	    if(textureLoader.loadFromFile(texture.path))
+	    {	   
+		kte::TextureData t = textureLoader.save(texture.name);
+		packages[texturePackage.first].addResource(t);
+	    }
 	}
     }
     
-    package.persist("General.kte");
+    for(auto& package : packages)
+	package.second.persist();
 
     return 0;
 }
