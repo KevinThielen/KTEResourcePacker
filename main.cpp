@@ -1,14 +1,14 @@
 #include <GameEngine.h>
 #include <fstream>
-#include <boost/filesystem.hpp>
-#include <boost/filesystem/operations.hpp> 
-#include <boost/concept_check.hpp>
+
 #include "FontLoader.h"
 #include <Resources/ResourcePackage.h>
 
 #include <deque>
 #include "ResourcePacker.h"
-#include <TextureLoader.h>
+#include "TextureLoader.h"
+#include "AudioLoader.h"
+#include "FileLoader.h"
 
 int main(int argc, char* argv[])
 {
@@ -48,9 +48,10 @@ int main(int argc, char* argv[])
 	    {	   
 		kte::Font f = fontLoader.save(font.name);
 		packages[fontPackage.first].addResource(f);
-	    }
+	    }    else return -1;
 	}
     }
+    
     TextureLoader textureLoader;
      std::map<std::string, std::vector<TextureInfo>> texturePackages = packer.getTextures(); 
     
@@ -64,7 +65,40 @@ int main(int argc, char* argv[])
 	    {	   
 		kte::TextureData t = textureLoader.save(texture.name);
 		packages[texturePackage.first].addResource(t);
+	    }    else return -1;
+	}
+    }
+    
+    AudioLoader audioLoader;
+    std::map<std::string, std::vector<AudioInfo>> audioPackages = packer.getAudios(); 
+    for(auto audioPackage : audioPackages)
+    {
+	if(!packages.count(audioPackage.first))
+	    packages[audioPackage.first] = kte::ResourcePackage(audioPackage.first);
+	for(auto file : audioPackage.second)
+	{
+	    if(audioLoader.loadFromFile(file.path))
+	    {	   
+		kte::AudioData audio = audioLoader.save(file.name);
+		packages[audioPackage.first].addResource(audio);
 	    }
+	    else return -1;
+	}
+    }
+    
+    FileLoader fileLoader;
+    std::map<std::string, std::vector<FileInfo>> filePackages = packer.getFiles(); 
+    for(auto filePackage : filePackages)
+    {
+	if(!packages.count(filePackage.first))
+	    packages[filePackage.first] = kte::ResourcePackage(filePackage.first);
+	for(auto file : filePackage.second)
+	{
+	    if(fileLoader.loadFromFile(file.path))
+	    {	   
+		kte::File f = fileLoader.save(file.name);
+		packages[filePackage.first].addResource(f);
+	    }    else return -1;
 	}
     }
     

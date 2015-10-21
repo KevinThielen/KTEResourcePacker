@@ -35,6 +35,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/KTEngine/cmake_install.cmake")
+  INCLUDE("/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/external/cmake_install.cmake")
   INCLUDE("/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/src/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)

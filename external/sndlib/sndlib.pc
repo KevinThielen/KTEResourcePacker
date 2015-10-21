@@ -1,0 +1,13 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+SNDLIB_LANGUAGE=s7
+SNDLIB_AUDIO=ALSA
+
+Name: sndlib
+Description: audio library
+Version: 22
+Libs:  -lm -ldl  -lasound   -lm
+Cflags: 

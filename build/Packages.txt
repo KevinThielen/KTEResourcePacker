@@ -1,5 +1,12 @@
-package default {
+package KTEData {
   texture { default:         "../Resources/Textures/default.png" }
+  file { spriteVS:		 "../Resources/Shaders/SpriteShader.vs" }
+  file { spriteFS:		 "../Resources/Shaders/SpriteShader.fs" }
+
+  file { textVS:		 "../Resources/Shaders/TextShader.vs" }
+  file { textFS:		 "../Resources/Shaders/TextShader.fs" }
+
+  audio { menuSelect:           "../Resources/Audio/MenuSelect.wav" }
 }
 
 package General {
@@ -33,4 +40,5 @@ package Game {
    font { gameTitle:   "../Resources/Fonts/SubTitle.ttf", size: 82 }
 
    texture { background:         "../Resources/Textures/background.png" }
+
 }

@@ -26,6 +26,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/kevin/Desktop/Projects/C++/KTEngine/src/Utility/Time.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Utility/Time.cpp.o"
   "/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o"
   "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/main.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/main.cpp.o"
+  "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/AudioLoader.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o"
   "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/FontLoader.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o"
   "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp" "/home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o"
   )
@@ -34,7 +35,6 @@ SET(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
   "DEBUG"
-  "RESOURCE_PATH=\"/home/kevin/Desktop/Projects/C++/KTEResourcePacker/Resources/\""
   )
 
 # Targets to which this target links.
@@ -50,10 +50,11 @@ SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/kevin/Desktop/Projects/C++/KTEngine/external/glm"
   "/home/kevin/Desktop/Projects/C++/KTEngine/external/glfw/include"
   "/home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include"
-  "/home/kevin/Desktop/Projects/C++/KTEngine/external/stb"
   "/home/kevin/Desktop/Projects/C++/KTEngine/external/jsoncpp/include"
-  "/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/include"
   "/home/kevin/Desktop/Projects/C++/KTEngine/external/enet/include"
+  "../external/stb"
+  "../external/portaudio/include"
+  "../external/freetype/include"
   "/usr/local/include/freetype"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -22,6 +22,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameObject.cpp.o"
   "CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o"
   "CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o"
+  "CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o"
   "CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o"
   "KTEResourcePacker.pdb"
   "KTEResourcePacker"

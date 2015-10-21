@@ -111,7 +111,6 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Ga
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
@@ -128,6 +127,8 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Ga
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -221,7 +222,6 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Ga
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
@@ -239,6 +239,8 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Ga
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -328,7 +330,6 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Animator.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
@@ -349,6 +350,8 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -534,8 +537,8 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
@@ -551,18 +554,23 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/ShaderManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/SpriteTechnique.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/TextTechnique.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Texture.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/IGameScene.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ContextChange.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/RenderSystem.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h
  /home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/SpriteTechnique.cpp
@@ -734,10 +742,15 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec3.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/GameEngine.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/GameObject.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Animation.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/FontTexture.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Geometries.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Mesh.h
@@ -746,15 +759,131 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/ShaderManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/TextTechnique.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Texture.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/IGameScene.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h
  /home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/TextTechnique.cpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/Texture.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include/GL/glew.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glfw/include/GLFW/glfw3.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/common.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_fixes.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_swizzle.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_swizzle_func.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_vectorize.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_common.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_common.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_exponential.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_exponential.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_geometric.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_geometric.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_integer.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_integer.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_matrix.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_matrix.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_packing.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_packing.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_trigonometric.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_trigonometric.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_vector_relational.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_vector_relational.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/precision.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/setup.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_float.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_half.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_half.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_int.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x2.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x3.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x4.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x2.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x3.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x4.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x2.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x3.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x4.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec1.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec1.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec2.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec3.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec4.inl
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/exponential.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat3x2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat3x3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat3x4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat4x2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat4x3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat4x4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/matrix.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/packing.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/trigonometric.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec2.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec3.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Animation.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/FontTexture.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Geometries.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Mesh.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Quad.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/RenderTechnique.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/TextTechnique.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Texture.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ContextChange.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/RenderSystem.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/SaveTexture.h
  /home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/Texture.cpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include/GL/glew.h
@@ -840,7 +969,6 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IG
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Animator.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
@@ -864,8 +992,11 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IG
  /home/kevin/Desktop/Projects/C++/KTEngine/include/IGameScene.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ContextChange.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -879,6 +1010,8 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IG
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h
  /home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Resources/ResourcePackage.cpp.o
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -963,7 +1096,6 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Sy
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Animator.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
@@ -974,6 +1106,8 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Sy
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -1062,25 +1196,32 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Sy
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/GameEngine.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/GameObject.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Animation.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/FontTexture.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Geometries.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Mesh.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Quad.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/RenderTechnique.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/ShaderManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/SpriteTechnique.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/TextTechnique.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Texture.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/IGameScene.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ContextChange.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -1088,6 +1229,8 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Sy
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/RenderSystem.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h
  /home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Utility/Analytics.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/external/enet/include/enet/callbacks.h
@@ -1191,33 +1334,44 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Wi
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/GameEngine.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/GameObject.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Animation.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/FontTexture.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Geometries.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Mesh.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Quad.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/RenderTechnique.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/TextTechnique.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Texture.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/IGameScene.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ContextChange.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/RenderSystem.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h
  /home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o
+ ../external/freetype/include/freetype/ft2build.h
+ ../include/AudioLoader.h
+ ../include/FileLoader.h
  ../include/FontLoader.h
  ../include/ResourcePacker.h
  ../include/TextureLoader.h
@@ -1301,7 +1455,6 @@ CMakeFiles/KTEResourcePacker.dir/main.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
@@ -1318,6 +1471,8 @@ CMakeFiles/KTEResourcePacker.dir/main.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -1326,7 +1481,14 @@ CMakeFiles/KTEResourcePacker.dir/main.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h
+ /usr/local/include/freetype/config/ftheader.h
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o
+ ../include/AudioLoader.h
+ /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/AudioLoader.cpp
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
+ ../external/freetype/include/freetype/ft2build.h
  ../include/FontLoader.h
  /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/FontLoader.cpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include/GL/glew.h
@@ -1408,7 +1570,6 @@ CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
@@ -1425,6 +1586,8 @@ CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/AudioData.h
+ /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/File.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
@@ -1433,111 +1596,8 @@ CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
  /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h
+ /usr/local/include/freetype/config/ftheader.h
 CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o
+ ../external/stb/stb/stb_image.h
  ../include/TextureLoader.h
  /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include/GL/glew.h
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glfw/include/GLFW/glfw3.h
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/common.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_fixes.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_swizzle.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_swizzle_func.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/_vectorize.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_common.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_common.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_exponential.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_exponential.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_geometric.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_geometric.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_integer.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_integer.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_matrix.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_matrix.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_packing.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_packing.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_trigonometric.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_trigonometric.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_vector_relational.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_vector_relational.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/precision.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/setup.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_float.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_half.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_half.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_int.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x2.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x3.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat2x4.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x2.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x3.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat3x4.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x2.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x3.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_mat4x4.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec1.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec1.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec2.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec3.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/type_vec4.inl
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/exponential.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat3x2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat3x3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat3x4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat4x2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat4x3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat4x4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/matrix.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/packing.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/trigonometric.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec2.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec3.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
- /home/kevin/Desktop/Projects/C++/KTEngine/external/stb/stb/stb_image.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioData.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/GameEngine.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/GameObject.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Animation.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/FontTexture.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Mesh.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Quad.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Texture.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/IGameScene.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/GameObjectRemovedMessage.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Font.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/IResource.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/ResourcePackage.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/Resources.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Resources/TextureData.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
- /home/kevin/Desktop/Projects/C++/KTEngine/include/Window.h

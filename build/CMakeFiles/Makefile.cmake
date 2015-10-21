@@ -11,6 +11,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.12.2/CMakeCCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
+  "../external/CMakeLists.txt"
   "../src/CMakeLists.txt"
   "/home/kevin/Desktop/Projects/C++/KTEngine/CMakeLists.txt"
   "/home/kevin/Desktop/Projects/C++/KTEngine/external/CMakeLists.txt"
@@ -92,6 +93,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "KTEngine/src/Utility/CMakeFiles/CMakeDirectoryInformation.cmake"
   "KTEngine/src/Audio/CMakeFiles/CMakeDirectoryInformation.cmake"
   "KTEngine/src/Resources/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "external/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

@@ -578,9 +578,32 @@ CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o.provides: CMakeFiles/KTERe
 
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o.provides.build: CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
 
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o: CMakeFiles/KTEResourcePacker.dir/flags.make
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o: ../src/AudioLoader.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/AudioLoader.cpp
+
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/AudioLoader.cpp > CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.i
+
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/AudioLoader.cpp -o CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.s
+
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.requires:
+.PHONY : CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.requires
+
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.provides: CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/KTEResourcePacker.dir/build.make CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.provides.build
+.PHONY : CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.provides
+
+CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.provides.build: CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o
+
 CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o: CMakeFiles/KTEResourcePacker.dir/flags.make
 CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o: ../src/TextureLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEResourcePacker/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o -c /home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/TextureLoader.cpp
 
@@ -626,6 +649,7 @@ KTEResourcePacker_OBJECTS = \
 "CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameObject.cpp.o" \
 "CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o" \
 "CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o" \
+"CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o" \
 "CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o"
 
 # External object files for target KTEResourcePacker
@@ -654,6 +678,7 @@ KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameObject.cpp.o
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o
+KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o
 KTEResourcePacker: CMakeFiles/KTEResourcePacker.dir/build.make
 KTEResourcePacker: /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/lib/libGLEW.a
@@ -668,9 +693,8 @@ KTEResourcePacker: /usr/lib/x86_64-linux-gnu/libGL.so
 KTEResourcePacker: /usr/lib/x86_64-linux-gnu/libGLU.so
 KTEResourcePacker: /usr/lib/x86_64-linux-gnu/libGL.so
 KTEResourcePacker: /usr/lib/x86_64-linux-gnu/libopenal.so
-KTEResourcePacker: /usr/local/lib/libfreetype.so
-KTEResourcePacker: /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/lib/libportaudio.a
 KTEResourcePacker: /home/kevin/Desktop/Projects/C++/KTEngine/build/libenet.a
+KTEResourcePacker: /usr/local/lib/libfreetype.so
 KTEResourcePacker: /usr/lib/x86_64-linux-gnu/libGLU.so
 KTEResourcePacker: /usr/lib/x86_64-linux-gnu/libopenal.so
 KTEResourcePacker: /usr/local/lib/libfreetype.so
@@ -705,6 +729,7 @@ CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/home
 CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameObject.cpp.o.requires
 CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/IGameScene.cpp.o.requires
 CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o.requires
+CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/src/AudioLoader.cpp.o.requires
 CMakeFiles/KTEResourcePacker.dir/requires: CMakeFiles/KTEResourcePacker.dir/src/TextureLoader.cpp.o.requires
 .PHONY : CMakeFiles/KTEResourcePacker.dir/requires
 

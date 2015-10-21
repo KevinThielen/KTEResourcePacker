@@ -19,6 +19,18 @@ struct TextureInfo
 	std::string path;
 };
 
+struct FileInfo 
+{
+    std::string name;
+    std::string path;
+};
+
+struct AudioInfo 
+{
+    std::string name;
+    std::string path;
+};
+
 class ResourcePacker 
 {
 public:
@@ -110,6 +122,52 @@ public:
 		    
 		    textures[packageName].push_back(texture);
 		}
+    // 	    get all audios
+		pos = buffer.find("audio {", packagePos);
+		while (pos >= 0 &&  pos < packageEnd)
+		{
+		    int startPos = pos+8;
+		    
+		    AudioInfo audio;
+		    int endPos = buffer.find(":", pos);
+		    std::string audioName = buffer.substr(startPos, endPos-startPos); 
+		    audio.name = audioName;		
+		    
+		    startPos = buffer.find("\"", endPos)+1;
+		    endPos = buffer.find("\"", startPos);
+		    
+		    std::string audioPath = buffer.substr(startPos, endPos-startPos); 
+		    audio.path = audioPath;
+		    
+		    
+		    pos = buffer.find("audio {", endPos);
+		    
+		    audios[packageName].push_back(audio);
+		}
+	    		
+    //get all files
+		pos = buffer.find("file {", packagePos);
+		while (pos >= 0 &&  pos < packageEnd)
+		{
+		    int startPos = pos+7;
+		    
+		    FileInfo file;
+		    int endPos = buffer.find(":", pos);
+		    std::string fileName = buffer.substr(startPos, endPos-startPos); 
+		    file.name = fileName;		
+		    
+		    startPos = buffer.find("\"", endPos)+1;
+		    endPos = buffer.find("\"", startPos);
+		    
+		    std::string filePath = buffer.substr(startPos, endPos-startPos); 
+		    file.path = filePath;
+		    
+		    
+		    pos = buffer.find("file {", endPos);
+		    
+		    files[packageName].push_back(file);
+		}
+	    
 	    
 	        packagePos = buffer.find("package ", packageEnd);
 	    }
@@ -126,9 +184,14 @@ public:
     
     std::map<std::string, std::vector<FontInfo>> getFonts() { return fonts; }
     std::map<std::string, std::vector<TextureInfo>> getTextures() { return textures; }
+    std::map<std::string, std::vector<FileInfo>> getFiles() { return files; }
+    std::map<std::string, std::vector<AudioInfo>> getAudios() { return audios; }
+    
 private:
+    std::map<std::string, std::vector<AudioInfo>> audios;
     std::map<std::string, std::vector<FontInfo>> fonts;
     std::map<std::string, std::vector<TextureInfo>> textures;
+    std::map<std::string,  std::vector<FileInfo>> files;
 };
 
 #endif

@@ -1,0 +1,2 @@
+/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/portaudio.dir
+/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/portaudio_static.dir

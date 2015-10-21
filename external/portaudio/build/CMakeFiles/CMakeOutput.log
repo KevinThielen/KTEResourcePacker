@@ -1,0 +1,117 @@
+The system is: Linux - 3.13.0-24-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/kevin/Desktop/emsdk_portable/emscripten/master/emcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out.js"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/kevin/Desktop/emsdk_portable/emscripten/master/emcc 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/kevin/Desktop/emsdk_portable/emscripten/master/emcc 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+0
+clang-3.7: warning: argument unused during compilation: '-Aa'
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out.js"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/kevin/Desktop/emsdk_portable/emscripten/master/em++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out.js"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/kevin/Desktop/emsdk_portable/emscripten/master/em++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4163673225/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4163673225.dir/build.make CMakeFiles/cmTryCompileExec4163673225.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4163673225.dir/testCCompiler.c.o
+/home/kevin/Desktop/emsdk_portable/emscripten/master/emcc    -o CMakeFiles/cmTryCompileExec4163673225.dir/testCCompiler.c.o   -c /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4163673225
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4163673225.dir/link.txt --verbose=1
+/home/kevin/Desktop/emsdk_portable/emscripten/master/emcc       CMakeFiles/cmTryCompileExec4163673225.dir/testCCompiler.c.o  -o cmTryCompileExec4163673225  
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4146668566/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4146668566.dir/build.make CMakeFiles/cmTryCompileExec4146668566.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4146668566.dir/CMakeCCompilerABI.c.o
+/home/kevin/Desktop/emsdk_portable/emscripten/master/emcc    -o CMakeFiles/cmTryCompileExec4146668566.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4146668566
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4146668566.dir/link.txt --verbose=1
+/home/kevin/Desktop/emsdk_portable/emscripten/master/emcc       CMakeFiles/cmTryCompileExec4146668566.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4146668566   
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2409037332/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2409037332.dir/build.make CMakeFiles/cmTryCompileExec2409037332.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2409037332.dir/testCXXCompiler.cxx.o
+/home/kevin/Desktop/emsdk_portable/emscripten/master/em++     -o CMakeFiles/cmTryCompileExec2409037332.dir/testCXXCompiler.cxx.o -c /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2409037332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2409037332.dir/link.txt --verbose=1
+/home/kevin/Desktop/emsdk_portable/emscripten/master/em++        CMakeFiles/cmTryCompileExec2409037332.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2409037332  
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2973551307/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2973551307.dir/build.make CMakeFiles/cmTryCompileExec2973551307.dir/build
+make[1]: Entering directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2973551307.dir/CMakeCXXCompilerABI.cpp.o
+/home/kevin/Desktop/emsdk_portable/emscripten/master/em++     -o CMakeFiles/cmTryCompileExec2973551307.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2973551307
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2973551307.dir/link.txt --verbose=1
+/home/kevin/Desktop/emsdk_portable/emscripten/master/em++        CMakeFiles/cmTryCompileExec2973551307.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2973551307   
+make[1]: Leaving directory `/home/kevin/Desktop/Projects/C++/KTEngine/external/portaudio/build/CMakeFiles/CMakeTmp'
+
+

@@ -138,21 +138,7 @@ kte::Font FontLoader::save(std::string filename)
     
      for(int i = 0; i<imageSize; i++)
      {
-// 	font.data.push_back(0);
-// 	font.data.push_back(0);
 	font.data.push_back(fontData[i]);
      }
-
-  //   write header and data to file  
-  /*
-    int xa= x % 256;
-    int xb= (x-xa)/256;int ya= y % 256;
-    int yb= (y-ya)/256;//assemble the header
-    unsigned char header[18]={0,0,2,0,0,0,0,0,0,0,0,0,(unsigned char)xa,(unsigned char)xb,(unsigned char)ya,(unsigned char)yb,24,0};
-    std::fstream File(filename, std::ios::out | std::ios::binary);
-    File.write (reinterpret_cast<char *>(header), sizeof (char)*18);
-    File.write (reinterpret_cast<char *>(&font.data[0]), sizeof (char)*imageSize*3);
-    File.close();*/
-
     return font;
 }
