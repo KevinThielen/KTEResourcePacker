@@ -92,6 +92,10 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Ga
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
@@ -111,6 +115,7 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Ga
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/GameEngine.h
@@ -311,6 +316,10 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
@@ -331,6 +340,7 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Gr
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Animator.h
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/MouseInputComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Graphics/GameSprite.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
@@ -1177,6 +1187,10 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Sy
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
@@ -1197,6 +1211,7 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Sy
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Systems/RenderSystem.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
@@ -1315,6 +1330,10 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Wi
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.hpp
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
@@ -1335,6 +1354,7 @@ CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Wi
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
+CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
 CMakeFiles/KTEResourcePacker.dir/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
@@ -1436,6 +1456,10 @@ CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KT
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
+CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.hpp
+CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
@@ -1455,6 +1479,7 @@ CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KT
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
+CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
 CMakeFiles/KTEResourcePacker.dir/main.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/GameEngine.h
@@ -1551,6 +1576,10 @@ CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Proje
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/fwd.hpp
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/glm.hpp
+CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.hpp
+CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x2.hpp
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat2x3.hpp
@@ -1570,6 +1599,7 @@ CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Proje
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vector_relational.hpp
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioBuffer.h
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Audio/AudioManager.h
+CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
 CMakeFiles/KTEResourcePacker.dir/src/FontLoader.cpp.o: /home/kevin/Desktop/Projects/C++/KTEngine/include/GameEngine.h

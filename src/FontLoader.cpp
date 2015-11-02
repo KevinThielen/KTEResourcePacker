@@ -54,7 +54,7 @@ bool FontLoader::loadFromFile(std::string path, unsigned int fontSize)
  
     //scale to next power of 2 for webGL
     int scaleX = 2, scaleY = 2;
-    while(scaleX < font.textureWidth)
+    while(scaleX < font.textureWidth+96)
 	scaleX *= 2;
     while(scaleY < font.textureHeight)
 	scaleY *= 2;
@@ -77,7 +77,9 @@ bool FontLoader::loadFromFile(std::string path, unsigned int fontSize)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     glPixelStorei ( GL_UNPACK_ALIGNMENT, 1 ) ;
     glPixelStorei ( GL_PACK_ALIGNMENT, 1 ) ;
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, font.textureWidth, font.textureHeight, 0, GL_RED, GL_UNSIGNED_BYTE, 0);
+    
+    std::vector<GLubyte> emptyTexture(scaleX * scaleY, 0); 
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, font.textureWidth, font.textureHeight, 0, GL_RED, GL_UNSIGNED_BYTE, &emptyTexture[0]);
 
     
 
@@ -104,7 +106,7 @@ bool FontLoader::loadFromFile(std::string path, unsigned int fontSize)
 	font.glyphs[i].bitmapTop = g->bitmap_top;
 
 	font.glyphs[i].textureX = x;
- 	x += g->bitmap.width +1;
+ 	x += g->bitmap.width + 1;
     }
     
     FT_Done_Face(fontFace);

@@ -6,6 +6,34 @@
 
 #IncludeRegexTransform: 
 
+../external/freetype/include/freetype/ft2build.h
+config/ftheader.h
+-
+
+../include/FontLoader.h
+freetype/ft2build.h
+-
+string
+-
+GameEngine.h
+-
+Resources/Font.h
+-
+GL/glew.h
+-
+
+/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/FontLoader.cpp
+FontLoader.h
+/home/kevin/Desktop/Projects/C++/KTEResourcePacker/src/FontLoader.h
+iostream
+-
+algorithm
+-
+fstream
+-
+complex
+-
+
 /home/kevin/Desktop/Projects/C++/KTEngine/external/glew/include/GL/glew.h
 stddef.h
 -
@@ -558,6 +586,38 @@ vector_relational.hpp
 integer.hpp
 /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+../detail/setup.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/setup.hpp
+constants.inl
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.inl
+limits
+-
+
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.hpp
+../mat4x4.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/mat4x4.hpp
+../vec2.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec2.hpp
+../vec3.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec3.hpp
+../vec4.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/vec4.hpp
+../gtc/constants.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/constants.hpp
+matrix_transform.inl
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
+
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/gtc/matrix_transform.inl
+../geometric.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/geometric.hpp
+../trigonometric.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/trigonometric.hpp
+../matrix.hpp
+/home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/matrix.hpp
+
 /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/integer.hpp
 detail/func_integer.hpp
 /home/kevin/Desktop/Projects/C++/KTEngine/external/glm/glm/detail/func_integer.hpp
@@ -654,22 +714,14 @@ vector
 cstring
 -
 
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Components/BoxCollider.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 glm/glm.hpp
 -
-functional
+glm/gtc/matrix_transform.hpp
 -
-algorithm
+Components/IComponent.h
 -
-IComponent.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
-
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Components/SpriteComponent.h
-glm/glm.hpp
--
-IComponent.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/IComponent.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Components/TransformationComponent.h
@@ -728,10 +780,6 @@ fstream
 iostream
 -
 
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Geometries.h
-Quad.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Quad.h
-
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Mesh.h
 GL/glew.h
 -
@@ -739,16 +787,6 @@ GL/glew.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Quad.h
 Graphics/Mesh.h
 -
-
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/RenderTechnique.h
-map
--
-GL/glew.h
--
-Components/TransformationComponent.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Components/TransformationComponent.h
-Components/SpriteComponent.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Components/SpriteComponent.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
 map
@@ -763,20 +801,6 @@ iostream
 -
 glm/glm.hpp
 -
-
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/TextTechnique.h
-vector
--
-GLFW/glfw3.h
--
-RenderTechnique.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/RenderTechnique.h
-Text.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Text.h
-Graphics/Geometries.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Graphics/Geometries.h
-Resources/Resources.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Resources/Resources.h
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Graphics/Texture.h
 string
@@ -813,14 +837,14 @@ GameObject.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Input.h
 Window.h
 -
+Components/Camera.h
+/home/kevin/Desktop/Projects/C++/KTEngine/include/Components/Camera.h
 glm/glm.hpp
+-
+iostream
 -
 
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ComponentAddedMessage.h
-Message.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
-
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/ContextChange.h
 Message.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Messages/Message.h
 
@@ -894,30 +918,6 @@ string
 Messages/Message.h
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Messages/Message.h
 
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/RenderSystem.h
-vector
--
-memory
--
-ISystem.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/ISystem.h
-Components/SpriteComponent.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Components/SpriteComponent.h
-Components/TransformationComponent.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Components/TransformationComponent.h
-Components/BoxCollider.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Components/BoxCollider.h
-Messages/ComponentAddedMessage.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Messages/ComponentAddedMessage.h
-Messages/ContextChange.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Messages/ContextChange.h
-Messages/GameObjectRemovedMessage.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Messages/GameObjectRemovedMessage.h
-Graphics/RenderTechnique.h
-/home/kevin/Desktop/Projects/C++/KTEngine/include/Systems/Graphics/RenderTechnique.h
-Graphics/TextTechnique.h
--
-
 /home/kevin/Desktop/Projects/C++/KTEngine/include/Utility/FPSCounter.h
 chrono
 -
@@ -936,13 +936,5 @@ string
 glm/glm.hpp
 -
 
-/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.cpp
-Window.h
-/home/kevin/Desktop/Projects/C++/KTEngine/src/Window.h
-GameEngine.h
-/home/kevin/Desktop/Projects/C++/KTEngine/src/GameEngine.h
-Messages/ContextChange.h
-/home/kevin/Desktop/Projects/C++/KTEngine/src/Messages/ContextChange.h
-Systems/RenderSystem.h
--
+/usr/local/include/freetype/config/ftheader.h
 
