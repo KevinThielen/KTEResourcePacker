@@ -12,9 +12,6 @@
 
 int main(int argc, char* argv[])
 {
-  //  if(argc <= 1)
-    //    return -1;
-
     std::string packageName = "paqckageName";
     std::string descriptorFile = "Packages.txt";
 	
@@ -31,7 +28,7 @@ int main(int argc, char* argv[])
    
     ResourcePacker packer;
     if(!packer.loadPackages(descriptorFile))
-	return false;
+	return -1;
   
     
     FontLoader fontLoader;
@@ -48,7 +45,9 @@ int main(int argc, char* argv[])
 	    {	   
 		kte::Font f = fontLoader.save(font.name);
 		packages[fontPackage.first].addResource(f);
-	    }    else return -1;
+	    }   
+	    else
+	    	return -1;
 	}
     }
     
@@ -65,7 +64,9 @@ int main(int argc, char* argv[])
 	    {	   
 		kte::TextureData t = textureLoader.save(texture.name);
 		packages[texturePackage.first].addResource(t);
-	    }    else return -1;
+	    }
+	    else 
+	    	return -1;
 	}
     }
     
@@ -82,7 +83,8 @@ int main(int argc, char* argv[])
 		kte::AudioData audio = audioLoader.save(file.name);
 		packages[audioPackage.first].addResource(audio);
 	    }
-	    else return -1;
+	    else 
+	    	return -1;
 	}
     }
     
@@ -98,7 +100,9 @@ int main(int argc, char* argv[])
 	    {	   
 		kte::File f = fileLoader.save(file.name);
 		packages[filePackage.first].addResource(f);
-	    }    else return -1;
+	    }
+	    else 
+	    	return -1;
 	}
     }
     
